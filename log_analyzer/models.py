@@ -17,7 +17,7 @@ try:
         hostname="watcher1",
         process="sshd",
         pid=2211,
-        username="root" * 100,
+        username="root",
         src_ip="203.0.113.50",
         src_port=51234
 )
