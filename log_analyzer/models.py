@@ -7,7 +7,7 @@ class SSHFailedLogin(BaseModel):
     hostname: str
     process: str
     pid: int = Field(gt=0)
-    username: str = Field(min_length=6, max_length=32)
+    username: str = Field(max_length=32)
     src_ip: IPv4Address
     src_port: int = Field(ge=0, le=65535)
 
